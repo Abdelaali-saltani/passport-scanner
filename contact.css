@@ -1,0 +1,173 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.divers{
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+}
+.con{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+.cond{
+  margin-left: 20px;
+  padding-bottom:20px;
+  text-transform: capitalize;
+}
+.rabat{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  border:1px solid #06a6f6;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+.rbt{
+  padding-bottom:10px ;
+  margin-left: 60px;
+  color: #06a6f6;
+  text-transform: uppercase;
+}
+.casa{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  border:1px solid #06a6f6;
+  border-radius: 10px;
+  padding: 10px;
+}
+.casabl{
+  padding-bottom:10px ;
+  margin-left: 40px;
+  color: #06a6f6;
+  text-transform: uppercase;
+}
+.allemagne{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  border:1px solid #06a6f6;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.germ{
+  padding-bottom:10px ;
+  margin-left: 50px;
+  color: #06a6f6;
+  text-transform: uppercase;
+}
+.bm{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  border:1px solid #06a6f6;
+  border-radius: 10px;
+  padding: 10px;
+}
+.bml{
+  padding-bottom:10px ;
+  margin-left: 55px;
+  color: #06a6f6;
+  text-transform: uppercase;
+}
+p{
+  margin-top: 10px;
+  font-size: 14px;
+}
+i{
+  margin-right: 10px;
+}
+.more{
+  display:grid;
+  justify-content: center;
+  margin-top: 20px;
+}
+.mc{
+  text-transform: uppercase;
+}
+ul li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+.svg{
+  margin-left: 80px;
+}
+.glb{
+  margin-left: 86px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.maps{
+  width: 80%;
+  margin-left: 120px;
+  border-radius: 10px;
+}
+/*  add media  */
+@media(max-width:1020px){
+  .divers{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: fit-content;
+    
+    
+  }
+  .con{
+    color: blue;
+  }
+  .cond{
+    margin-left: 0;
+    
+    background-color: rgb(64, 77, 77);
+    margin: auto;
+    width: fit-content;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 2px solid rgb(66, 121, 211);
+    color: white;
+    border-radius: 4px;
+    
+  }
+  .rabat{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    border:1px solid #06a6f6;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    
+  }
+  .maps{
+    display: grid;
+    justify-content: center;
+    width:100%;
+    margin-left:0;
+    
+    border-radius: 10px;
+  }
+
+}
+@media(max-width:532px){
+  .cond{
+    margin-left: 20px;
+    padding-bottom:20px;
+    text-transform: capitalize;
+    
+  }
+
+}

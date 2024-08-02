@@ -1,0 +1,9 @@
+section{
+  background-color: black;
+}
+.selt{
+  background-color: #4d7fab;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
